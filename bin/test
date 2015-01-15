@@ -2,4 +2,6 @@
 
 set -o pipefail
 
-xcodebuild test -workspace KSCoreDataTester.xcworkspace -scheme KSCoreDataTester -sdk iphonesimulator BUILD_ACTIVE_ARCH=NO | xcpretty -t -c
+xcodebuild test -workspace KSCoreDataTester.xcworkspace \
+  -scheme KSCoreDataTester -sdk iphonesimulator \
+  BUILD_ACTIVE_ARCH=NO | xcpretty -t -c
