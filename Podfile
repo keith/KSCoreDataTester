@@ -1,8 +1,8 @@
 platform :ios, "8.0"
 
-target :unit_tests, :exclusive => true do
+target :unit_tests, exclusive: true do
   link_with "UnitTests"
 
-  pod "Specta"
+  pod "Specta", git: "https://github.com/specta/specta.git", tag: "v0.3.0.beta1"
   pod "Expecta"
 end

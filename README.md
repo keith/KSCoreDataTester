@@ -1,5 +1,7 @@
 # KSCoreDataTester
 
+[![Build Status](https://travis-ci.org/Keithbsmiley/KSCoreDataTester.svg)](https://travis-ci.org/Keithbsmiley/KSCoreDataTester)
+
 ## Testing
 
 Run `bin/test`
