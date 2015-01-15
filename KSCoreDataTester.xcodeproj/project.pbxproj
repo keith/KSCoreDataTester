@@ -14,6 +14,8 @@
 		A8FBF40E109E125C71EA63FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9DEA221C6C8B7FD3145DF8 /* Foundation.framework */; };
 		B667BE52DFE57C94AB23AF42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FAA642BE3DF9A34E4068D2 /* Images.xcassets */; };
 		C26B6DEA1A678A92001E47D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C26B6DE91A678A92001E47D9 /* AppDelegate.m */; };
+		C26B6DED1A678D2A001E47D9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C26B6DEB1A678D2A001E47D9 /* Model.xcdatamodeld */; };
+		C26B6DF01A678D6C001E47D9 /* Widget.m in Sources */ = {isa = PBXBuildFile; fileRef = C26B6DEF1A678D6C001E47D9 /* Widget.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,9 @@
 		7F0719352E7DA4C0805AACA0 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C26B6DE81A678A92001E47D9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C26B6DE91A678A92001E47D9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C26B6DEC1A678D2A001E47D9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C26B6DEE1A678D6C001E47D9 /* Widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Widget.h; sourceTree = "<group>"; };
+		C26B6DEF1A678D6C001E47D9 /* Widget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Widget.m; sourceTree = "<group>"; };
 		CD000D3B5121F0F3526E306F /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		DE9DEA221C6C8B7FD3145DF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DEAC13D09CB8078A901EDAF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,6 +73,7 @@
 		0663D7CAE8420337F25A7930 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C26B6DEB1A678D2A001E47D9 /* Model.xcdatamodeld */,
 				01FAA642BE3DF9A34E4068D2 /* Images.xcassets */,
 				596CE6A4512FD056E326514D /* Storyboards */,
 				54EF5C6002476E47541294DC /* Nibs */,
@@ -174,6 +180,8 @@
 			children = (
 				C26B6DE81A678A92001E47D9 /* AppDelegate.h */,
 				C26B6DE91A678A92001E47D9 /* AppDelegate.m */,
+				C26B6DEE1A678D6C001E47D9 /* Widget.h */,
+				C26B6DEF1A678D6C001E47D9 /* Widget.m */,
 			);
 			path = KSCoreDataTester;
 			sourceTree = "<group>";
@@ -326,8 +334,10 @@
 			files = (
 				C26B6DEA1A678A92001E47D9 /* AppDelegate.m in Sources */,
 				35C5FB692FF2DFC525CD086D /* Main.storyboard in Sources */,
+				C26B6DED1A678D2A001E47D9 /* Model.xcdatamodeld in Sources */,
 				863183AF1359FC172133363E /* LaunchScreen.xib in Sources */,
 				72ED50D47B5180A8CA70F5A8 /* main.m in Sources */,
+				C26B6DF01A678D6C001E47D9 /* Widget.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +576,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C26B6DEB1A678D2A001E47D9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C26B6DEC1A678D2A001E47D9 /* Model.xcdatamodel */,
+			);
+			currentVersion = C26B6DEC1A678D2A001E47D9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F479370F6853246BB9C481C2 /* Project object */;
 }
