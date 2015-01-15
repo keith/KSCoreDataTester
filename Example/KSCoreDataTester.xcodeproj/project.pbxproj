@@ -19,22 +19,16 @@
 		C26B6DFB1A678DEA001E47D9 /* KSCoreDataTester.h in Headers */ = {isa = PBXBuildFile; fileRef = C26B6DFA1A678DEA001E47D9 /* KSCoreDataTester.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C26B6E0D1A678DEA001E47D9 /* KSCoreDataTester_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26B6DF61A678DEA001E47D9 /* KSCoreDataTester_iOS.framework */; };
 		C26B6E0E1A678DEA001E47D9 /* KSCoreDataTester_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C26B6DF61A678DEA001E47D9 /* KSCoreDataTester_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C26B6E2A1A67902F001E47D9 /* NSManagedObjectContext+KSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C26B6E231A67902F001E47D9 /* NSManagedObjectContext+KSAdditions.h */; };
-		C26B6E2B1A67902F001E47D9 /* NSManagedObjectContext+KSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C26B6E241A67902F001E47D9 /* NSManagedObjectContext+KSAdditions.m */; };
-		C26B6E2C1A67902F001E47D9 /* NSManagedObjectModel+KSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C26B6E251A67902F001E47D9 /* NSManagedObjectModel+KSAdditions.h */; };
-		C26B6E2D1A67902F001E47D9 /* NSManagedObjectModel+KSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C26B6E261A67902F001E47D9 /* NSManagedObjectModel+KSAdditions.m */; };
-		C26B6E2E1A67902F001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C26B6E271A67902F001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.h */; };
-		C26B6E2F1A67902F001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C26B6E281A67902F001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.m */; };
 		C26B6E331A67913F001E47D9 /* KSManagedObjectContextAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C26B6E301A67913F001E47D9 /* KSManagedObjectContextAdditions.m */; };
 		C26B6E341A67913F001E47D9 /* KSManagedObjectModelAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C26B6E311A67913F001E47D9 /* KSManagedObjectModelAdditions.m */; };
 		C26B6E351A67913F001E47D9 /* KSPersistentStoreCoordinatorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C26B6E321A67913F001E47D9 /* KSPersistentStoreCoordinatorAdditions.m */; };
 		C26B6E401A679775001E47D9 /* KSCoreDataTester-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = C26B6E3F1A679775001E47D9 /* KSCoreDataTester-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C26B6E541A6797B9001E47D9 /* NSManagedObjectContext+KSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C26B6E231A67902F001E47D9 /* NSManagedObjectContext+KSAdditions.h */; };
-		C26B6E551A6797BA001E47D9 /* NSManagedObjectModel+KSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C26B6E251A67902F001E47D9 /* NSManagedObjectModel+KSAdditions.h */; };
-		C26B6E561A6797BD001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C26B6E271A67902F001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.h */; };
-		C26B6E571A6797BF001E47D9 /* NSManagedObjectContext+KSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C26B6E241A67902F001E47D9 /* NSManagedObjectContext+KSAdditions.m */; };
-		C26B6E581A6797C1001E47D9 /* NSManagedObjectModel+KSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C26B6E261A67902F001E47D9 /* NSManagedObjectModel+KSAdditions.m */; };
-		C26B6E591A6797C3001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C26B6E281A67902F001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.m */; };
+		C2CB10421A683D96004C2DA3 /* NSManagedObjectContext+KSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C2CB103C1A683D96004C2DA3 /* NSManagedObjectContext+KSAdditions.h */; };
+		C2CB10431A683D96004C2DA3 /* NSManagedObjectContext+KSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CB103D1A683D96004C2DA3 /* NSManagedObjectContext+KSAdditions.m */; };
+		C2CB10441A683D96004C2DA3 /* NSManagedObjectModel+KSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C2CB103E1A683D96004C2DA3 /* NSManagedObjectModel+KSAdditions.h */; };
+		C2CB10451A683D96004C2DA3 /* NSManagedObjectModel+KSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CB103F1A683D96004C2DA3 /* NSManagedObjectModel+KSAdditions.m */; };
+		C2CB10461A683D96004C2DA3 /* NSPersistentStoreCoordinator+KSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C2CB10401A683D96004C2DA3 /* NSPersistentStoreCoordinator+KSAdditions.h */; };
+		C2CB10471A683D96004C2DA3 /* NSPersistentStoreCoordinator+KSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CB10411A683D96004C2DA3 /* NSPersistentStoreCoordinator+KSAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,18 +80,18 @@
 		C26B6DF61A678DEA001E47D9 /* KSCoreDataTester_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KSCoreDataTester_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26B6DF91A678DEA001E47D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C26B6DFA1A678DEA001E47D9 /* KSCoreDataTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSCoreDataTester.h; sourceTree = "<group>"; };
-		C26B6E231A67902F001E47D9 /* NSManagedObjectContext+KSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+KSAdditions.h"; sourceTree = "<group>"; };
-		C26B6E241A67902F001E47D9 /* NSManagedObjectContext+KSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+KSAdditions.m"; sourceTree = "<group>"; };
-		C26B6E251A67902F001E47D9 /* NSManagedObjectModel+KSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectModel+KSAdditions.h"; sourceTree = "<group>"; };
-		C26B6E261A67902F001E47D9 /* NSManagedObjectModel+KSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectModel+KSAdditions.m"; sourceTree = "<group>"; };
-		C26B6E271A67902F001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStoreCoordinator+KSAdditions.h"; sourceTree = "<group>"; };
-		C26B6E281A67902F001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStoreCoordinator+KSAdditions.m"; sourceTree = "<group>"; };
 		C26B6E301A67913F001E47D9 /* KSManagedObjectContextAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSManagedObjectContextAdditions.m; sourceTree = "<group>"; };
 		C26B6E311A67913F001E47D9 /* KSManagedObjectModelAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSManagedObjectModelAdditions.m; sourceTree = "<group>"; };
 		C26B6E321A67913F001E47D9 /* KSPersistentStoreCoordinatorAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPersistentStoreCoordinatorAdditions.m; sourceTree = "<group>"; };
 		C26B6E3B1A679775001E47D9 /* KSCoreDataTester_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KSCoreDataTester_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26B6E3E1A679775001E47D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C26B6E3F1A679775001E47D9 /* KSCoreDataTester-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KSCoreDataTester-OSX.h"; sourceTree = "<group>"; };
+		C2CB103C1A683D96004C2DA3 /* NSManagedObjectContext+KSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+KSAdditions.h"; path = "../NSManagedObjectContext+KSAdditions.h"; sourceTree = "<group>"; };
+		C2CB103D1A683D96004C2DA3 /* NSManagedObjectContext+KSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+KSAdditions.m"; path = "../NSManagedObjectContext+KSAdditions.m"; sourceTree = "<group>"; };
+		C2CB103E1A683D96004C2DA3 /* NSManagedObjectModel+KSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectModel+KSAdditions.h"; path = "../NSManagedObjectModel+KSAdditions.h"; sourceTree = "<group>"; };
+		C2CB103F1A683D96004C2DA3 /* NSManagedObjectModel+KSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectModel+KSAdditions.m"; path = "../NSManagedObjectModel+KSAdditions.m"; sourceTree = "<group>"; };
+		C2CB10401A683D96004C2DA3 /* NSPersistentStoreCoordinator+KSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStoreCoordinator+KSAdditions.h"; path = "../NSPersistentStoreCoordinator+KSAdditions.h"; sourceTree = "<group>"; };
+		C2CB10411A683D96004C2DA3 /* NSPersistentStoreCoordinator+KSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStoreCoordinator+KSAdditions.m"; path = "../NSPersistentStoreCoordinator+KSAdditions.m"; sourceTree = "<group>"; };
 		CD000D3B5121F0F3526E306F /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		DE9DEA221C6C8B7FD3145DF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DEAC13D09CB8078A901EDAF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -183,12 +177,12 @@
 		5200AAFB9A00AEA32AEE8B6C = {
 			isa = PBXGroup;
 			children = (
-				C26B6E231A67902F001E47D9 /* NSManagedObjectContext+KSAdditions.h */,
-				C26B6E241A67902F001E47D9 /* NSManagedObjectContext+KSAdditions.m */,
-				C26B6E251A67902F001E47D9 /* NSManagedObjectModel+KSAdditions.h */,
-				C26B6E261A67902F001E47D9 /* NSManagedObjectModel+KSAdditions.m */,
-				C26B6E271A67902F001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.h */,
-				C26B6E281A67902F001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.m */,
+				C2CB103C1A683D96004C2DA3 /* NSManagedObjectContext+KSAdditions.h */,
+				C2CB103D1A683D96004C2DA3 /* NSManagedObjectContext+KSAdditions.m */,
+				C2CB103E1A683D96004C2DA3 /* NSManagedObjectModel+KSAdditions.h */,
+				C2CB103F1A683D96004C2DA3 /* NSManagedObjectModel+KSAdditions.m */,
+				C2CB10401A683D96004C2DA3 /* NSPersistentStoreCoordinator+KSAdditions.h */,
+				C2CB10411A683D96004C2DA3 /* NSPersistentStoreCoordinator+KSAdditions.m */,
 				ED28C9B19CCF1357CF6B3021 /* KSCoreDataTester */,
 				0663D7CAE8420337F25A7930 /* Resources */,
 				3ABFABA294A509E39130585A /* UnitTests */,
@@ -308,10 +302,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C26B6E2A1A67902F001E47D9 /* NSManagedObjectContext+KSAdditions.h in Headers */,
-				C26B6E2E1A67902F001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.h in Headers */,
-				C26B6E2C1A67902F001E47D9 /* NSManagedObjectModel+KSAdditions.h in Headers */,
+				C2CB10421A683D96004C2DA3 /* NSManagedObjectContext+KSAdditions.h in Headers */,
 				C26B6DFB1A678DEA001E47D9 /* KSCoreDataTester.h in Headers */,
+				C2CB10441A683D96004C2DA3 /* NSManagedObjectModel+KSAdditions.h in Headers */,
+				C2CB10461A683D96004C2DA3 /* NSPersistentStoreCoordinator+KSAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,9 +314,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C26B6E401A679775001E47D9 /* KSCoreDataTester-OSX.h in Headers */,
-				C26B6E541A6797B9001E47D9 /* NSManagedObjectContext+KSAdditions.h in Headers */,
-				C26B6E551A6797BA001E47D9 /* NSManagedObjectModel+KSAdditions.h in Headers */,
-				C26B6E561A6797BD001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,9 +528,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C26B6E2B1A67902F001E47D9 /* NSManagedObjectContext+KSAdditions.m in Sources */,
-				C26B6E2D1A67902F001E47D9 /* NSManagedObjectModel+KSAdditions.m in Sources */,
-				C26B6E2F1A67902F001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.m in Sources */,
+				C2CB10431A683D96004C2DA3 /* NSManagedObjectContext+KSAdditions.m in Sources */,
+				C2CB10451A683D96004C2DA3 /* NSManagedObjectModel+KSAdditions.m in Sources */,
+				C2CB10471A683D96004C2DA3 /* NSPersistentStoreCoordinator+KSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,9 +538,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C26B6E571A6797BF001E47D9 /* NSManagedObjectContext+KSAdditions.m in Sources */,
-				C26B6E581A6797C1001E47D9 /* NSManagedObjectModel+KSAdditions.m in Sources */,
-				C26B6E591A6797C3001E47D9 /* NSPersistentStoreCoordinator+KSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -930,6 +918,7 @@
 				C26B6E501A679775001E47D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBD1FC97FA31F122B45CACDE /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
 			isa = XCConfigurationList;

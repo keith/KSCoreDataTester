@@ -6,4 +6,5 @@ branches:
 
 env: export LANG=en_US.UTF-8
 
+before_install: cd Example
 script: bin/test
