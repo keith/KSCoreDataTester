@@ -1,6 +1,6 @@
 # KSCoreDataTester
 
-[![Build Status](https://travis-ci.org/Keithbsmiley/KSCoreDataTester.svg)](https://travis-ci.org/Keithbsmiley/KSCoreDataTester)
+[![Build Status](https://travis-ci.org/keith/KSCoreDataTester.svg?branch=master)](https://travis-ci.org/keith/KSCoreDataTester)
 
 Core Data categories to enable simple in memory store creation for
 tests.
